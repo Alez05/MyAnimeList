@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="../smart-look/button.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../smart-look/header.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../smart-look/reset.css"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <h1 class="title">MyAnimeList</h1>
+      <a
+        href="https://thefwa.com/"
+        target="_blank"
+      >
+        <img
+          src="/public/image/background/onepiece-banner.png"
+          alt="The one piece is real"
+        />
+      </a>
+      <div class="button-grp">
+        <button
+          class="btn-login"
+          onclick="document.getElementById('id01').style.display='block'"
+        >
+          Login
+        </button>
+        <div
+          id="id01"
+          class="modal"
+        >
+          <div class="container">
+            <form action="https://www.youtube.com/watch?v=OfbQLnMETIY">
+              <div class="row">
+                <h2 class="sub-title">Login with</h2>
+                <div class="hl">
+                  <span class="hl-innertext">or</span>
+                </div>
+                <div class="col">
+                  <a
+                    href="#"
+                    class="google icon"
+                  >
+                    <i class=""></i> Google
+                  </a>
+                  <a
+                    href="#"
+                    class="apple icon"
+                  >
+                    <i></i> Apple
+                  </a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <button
+          class="btn-signup"
+          onclick="document.getElementById('id02').style.display='block'"
+        >
+          Sign Up
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
